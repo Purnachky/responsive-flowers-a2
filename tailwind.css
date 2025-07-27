@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
-/*font styles*/
-
---inter-<para> {
+/* font styles
+@theme{
+  --font-display{
+    .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
---noto-serif-<headings> {
+.noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -16,3 +17,21 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+  }
+} */
+
+/* .inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+/* .noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
